@@ -1,0 +1,24 @@
+package rules;
+import com.emaratech.vision.model.ApplicationDTO
+rule "minor person"
+    when
+     application : ApplicationDTO(age < 18)
+    then
+    application.setResponse("Age is Below 18 ! Minor Person");
+
+end
+
+rule "Adult person"
+    when
+     application : ApplicationDTO(age >= 18 && age < 60)
+    then
+    application.setResponse("Age is Above 18 & less than 60 ! Adult Person");
+end
+
+
+rule "Senior citizen person"
+    when
+     application : ApplicationDTO(age >= 60 && age < 100)
+    then
+    application.setResponse("Age is Above 60 ! Senior citizen Person");
+end

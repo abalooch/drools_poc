@@ -1,4 +1,4 @@
-package com.emaratech.vision.rules.configuration;
+package com.emaratech.vision;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

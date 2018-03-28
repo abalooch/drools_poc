@@ -1,7 +1,8 @@
 package com.sample
  
-import com.sample.DroolsTest.Message;
- 
+import com.sample.Message;
+import com.emaratech.vision.model.ApplicationDTO
+
 rule "Hello World"
     when
         m : Message( status == Message.HELLO, myMessage : message )
@@ -17,4 +18,12 @@ rule "GoodBye"
         Message( status == Message.GOODBYE, myMessage : message )
     then
         System.out.println( myMessage );
+end
+
+
+rule "Dead person"
+    when
+     application : ApplicationDTO(age >= 100)
+    then
+    application.setResponse("Age is Above 100 ! You should be dead by now ! ");
 end
