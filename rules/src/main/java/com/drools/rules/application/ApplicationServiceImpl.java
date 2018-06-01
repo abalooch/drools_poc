@@ -1,6 +1,6 @@
-package com.emaratech.vision.rules.application;
+package com.drools.rules.application;
 
-import com.emaratech.vision.model.ApplicationDTO;
+import com.drools.rules.model.ApplicationDTO;
 import com.sample.Message;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;

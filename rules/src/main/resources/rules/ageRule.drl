@@ -1,5 +1,5 @@
 package rules;
-import com.emaratech.vision.model.ApplicationDTO
+import com.drools.rules.model.ApplicationDTO
 rule "minor person"
     when
      application : ApplicationDTO(age < 18)

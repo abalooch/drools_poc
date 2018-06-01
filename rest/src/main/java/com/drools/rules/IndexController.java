@@ -1,7 +1,7 @@
-package com.emaratech.vision;
+package com.drools.rules;
 
-import com.emaratech.vision.model.ApplicationDTO;
-import com.emaratech.vision.rules.application.IApplicationService;
+import com.drools.rules.model.ApplicationDTO;
+import com.drools.rules.application.IApplicationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

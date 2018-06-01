@@ -1,4 +1,4 @@
-package com.emaratech.vision.rules.configuration;
+package com.drools.rules.configuration;
 
 import org.kie.api.KieServices;
 import org.kie.api.runtime.KieContainer;

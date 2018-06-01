@@ -1,6 +1,6 @@
-package com.emaratech.vision.rules.application;
+package com.drools.rules.application;
 
-import com.emaratech.vision.model.ApplicationDTO;
+import com.drools.rules.model.ApplicationDTO;
 
 /**
  * Created by Ashfak.Balooch on 3/27/2018.

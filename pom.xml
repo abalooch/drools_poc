@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.emaratech.vision</groupId>
-    <artifactId>vision-rules</artifactId>
+    <groupId>com.drools.rules</groupId>
+    <artifactId>drools-rules</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -32,7 +32,7 @@
         </dependency>
     </dependencies>
     <properties>
-        <start-class>com.emaratech.vision.SpringBootWebApplication</start-class>
+        <start-class>SpringBootWebApplication</start-class>
         <project.version>0.0.1-SNAPSHOT</project.version>
         <runtime.version>7.6.0.Final</runtime.version>
     </properties>

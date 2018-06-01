@@ -1,4 +1,4 @@
-package com.emaratech.vision.model;
+package com.drools.rules.model;
 
 /**
  * Created by Ashfak.Balooch on 3/27/2018.
